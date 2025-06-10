@@ -10,82 +10,17 @@
 <link href="https://fonts.googleapis.com/css2?family=Exile&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | QR code component</title>
-  <style>
-    body{
-      background-color:  hsl(212, 45%, 89%);
-      display:flex;
-      justify-content: center;
-      align-items:center;
-      height:100vh;
-      
-
-      
-    }
-    #div1{
-      background-color: white;
-      
-      width:250px;
-      text-align: center;
-      font-size: 15px;
-      padding:10px;
-      border-radius: 5%;
-      position:relative;
-      
-      
-      
-      
-    }
-    img{
-      height:250px;
-      width:250px;
-      border-radius: 5%;
-      
-    }
-    /*#div2{
-      
-      height:250px;
-      width:250px;
-    
-     
-     
-     
-     background-image: url(./images/image-qr-code.png);
-     background-size: cover;
-     border-radius: 5%;
-
-    }*/
-    
-    
-   #div3{
-    box-sizing: border-box;
-    padding:15px;
-    font-family:'Outfit',sans-serif;
-    
-    
-   }
-   #p2{
-    font-weight: 400;
-    color:hsl(216, 15%, 48%)
-   }
-   #p1{
-    font-weight: 700;
-    font-size:19px;
-   }
-   
-  </style>
-
+  <link href="style.css" rel="stylesheet">
 </head>
 <body>
-  <div id="div1">
-    <div id="div2">
-<img src="./images/image-qr-code.png" >
+  <div id="container">
+    <div id="image">
+      <img src="./images/image-qr-code.png">
     </div>
-    <div id="div3">
-    <p id="p1">Improve your front-end skills by building projects</p>
-    <p id="p2"> Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p></div>
+    <div id="text">
+      <p id="p1">Improve your front-end skills by building projects</p>
+      <p id="p2">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.</p>
+    </div>
   </div>
-   
-
-  
 </body>
 </html>
